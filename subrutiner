@@ -1,0 +1,25 @@
+
+1528:
+    print contents of reg0
+
+1531:
+
+    Inputs: reg0, reg1
+    Stack unchanged
+    Result: A character determined by 2125 is printed, the character is stored in reg0
+
+    push reg 1
+    reg1 = reg2
+    call 2125
+    print reg0
+    pop reg1
+
+2125:
+
+    Inputs: reg0, reg1
+    Stack unchanged
+    Result: The result of a complicated bitwise operation is stored in reg0. Obfuscation?
+
+1458:
+
+    Inputs: reg0, reg1
